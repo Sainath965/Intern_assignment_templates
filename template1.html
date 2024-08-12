@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Sale 99% Off</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            position: relative;
+            width: 375px;
+            height: 365px;
+        }
+        .container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ffffff;
+            color: #000;
+            border-radius: 50%;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .text-overlay span {
+            font-size: 48px;
+        }
+        .top-banner, .bottom-banner, .left-banner, .right-banner {
+            position: absolute;
+            color: #000;
+            font-size: 14px;
+            background-color: #fff;
+            padding: 5px;
+            text-align: center;
+        }
+        .top-banner {
+            top: 0;
+            width: 100%;
+        }
+        .bottom-banner {
+            bottom: 0;
+            width: 100%;
+        }
+        .left-banner {
+            left: 0;
+            height: 100%;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            top: 0;
+        }
+        .right-banner {
+            right: 0;
+            height: 100%;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="sample1.jpg" alt="Flash Sale Image">
+        <div class="top-banner">samplewebsite.com</div>
+        <div class="left-banner">samplewebsite.com</div>
+        <div class="right-banner">samplewebsite.com</div>
+        <div class="text-overlay">FLASH SALE<br><span>99%</span> OFF</div>
+        <div class="bottom-banner">samplewebsite.com</div>
+    </div>
+</body>
+</html>
